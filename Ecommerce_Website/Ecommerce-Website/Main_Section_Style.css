@@ -1,0 +1,316 @@
+
+/* This is hero part CSS :  */
+
+#hero{
+    background-color: rgb(240, 240, 240);
+    width: 100%; 
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+   padding: 0 150px;
+}
+.heroimage{
+    width: 30px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 400px;
+}
+ #hero h4{
+    /* padding-bottom: 10px; */
+    font-size: 30px;
+}
+#hero h2{
+    font-size: 40px;
+}
+#hero h1{
+    color:#088178;
+    font-size: 40px;
+}
+/* p{
+    font-size: 10px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+} */
+#hero button{
+    border: #088178;
+   border-radius: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #088178;
+    padding: 5px ;
+}
+#hero button:hover{
+    background-color: #088178;
+    color: white;
+}
+
+/* hero part ke bad wala  */
+
+#features{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#features .f-box{
+    /* width: 100px; */
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.03);
+    border: 1px solid #cce7d0;
+    margin: 15px 0;
+    transition: box-shadow 0.3s;
+}
+.f1{
+    width: 60px;
+    height: 60px;
+}
+.f-box:hover{
+    box-shadow: 10px 10px 54px ;
+    background-color: rgba(0,0,0,0.04);
+}
+.f-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#features .f-box h6{
+    /* display: inline-block; */
+    padding: 5px 4px 3px 4px;
+    line-height: 1;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+}
+#features .f-box h6:hover{
+    background-color: white;
+    color: #465b52;
+}
+
+/* First product part :  */
+.product-section .pro-collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 60px;
+}
+.product-section h1,
+.product-section p{
+    text-align: center;
+}
+.product-section .product-cart{
+    width: 200px;
+    border: 1px solid #ebebeb;
+    padding: 13px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    transition: box-shadow 0.2s;
+}
+.product-section .product-cart:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+.product-section .product-cart img{
+    width: 100%;
+    border-radius: 25px;
+}
+.product-section .product-cart span{
+    color: #969696;
+    font-weight: 500;
+    line-height: 30px;
+}
+.product-section .product-cart h4{
+    font-size: 18px;
+    color: rgb(41,41,41); 
+}
+.product-section .product-cart .stars{
+    color: #e6ae2c;
+    padding: 6px 0;
+}
+.product-section .product-cart .price{
+    color: #088178;
+    padding: 4px 0;
+}
+.product-section .product-cart .buy-icon{
+    color: #088178;
+    background-color: #c7e9e75e;
+    padding: 15px;
+    position: absolute;
+    border-radius: 50px;
+    right: 10px;
+    bottom: 10px;
+}
+
+/* This is Banner part :  */
+
+#off-banner{
+    background-image: url(/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#off-banner h4{
+    color: #eaebf0;
+}
+#off-banner h2{
+    color: #eaebf0;
+    padding: 20px 0;
+}
+button.normal{
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 15px 30px;
+    color: #000;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: #fff;
+    transition: 0.2s;
+}
+button.normal:hover{
+    background-color: #cce7d0;
+}
+
+/* Second product part :  */
+/* all CSS property khud apply ho jata hai */
+
+/* This is second Banner part CSS :  */
+#banners{
+    margin: 0 60px;
+}
+/* ye big banners ka hai :  */
+#banners h2,h4,span{
+    color: rgb(248,248,248);
+}
+#banners .big-banners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#banners .big-banners div{
+    min-width: 280px;
+    margin: 15px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding:20px ;
+    background-size: cover;
+    backdrop-filter: blur(8%);
+}
+#banners .big-banners-1{
+    background-image: url(/b17.jpg);
+}
+#banners .big-banners-2{
+    background-image: url(/b10.jpg);
+}
+#banners .big-banners button{
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    color: rgb(248,248,248);
+    border: 1px solid rgb(248,248,248);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#banners .big-banners div:hover button{
+    background-color: #088178;
+    border: 1px solid #088178;
+}
+/* small banners :  */
+#banners .small-banners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#banners .small-banners div{
+    min-width: 250px;
+    margin: 15px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding:25px ;
+    background-size: cover;
+}
+#banners .small-banners-1{
+    background-image: url(/b7.jpg);
+}
+#banners .small-banners-2{
+    background-image: url(/b4.jpg);
+}
+#banners .small-banners-3{
+    background-image: url(/b18.jpg);
+}
+#banners .small-banners h2{
+    font-size: 25px;
+}
+#banners .small-banners h5{
+    color: #000;
+}
+
+/* newsletter section styles */
+#newsletter {
+    background-image: url(images/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 180px;
+    background-color: #041e42;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  #newsletter .newsletter-text h3 {
+    color: white;
+    font-size: 25px;
+    padding: 0 0 10px 0;
+  }
+  #newsletter .newsletter-text h5 {
+    color: rgb(151, 151, 151);
+    font-size: 15px;
+  }
+  #newsletter .newsletter-text h5 span {
+    color: rgb(216, 182, 29);
+  }
+  #newsletter .form input {
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: #d1d0d0;
+    border-radius: 6px 0 0 6px;
+    font-size: 18px;
+  
+    border: none;
+    outline: none;
+    margin-right: -6px;
+    margin-top: 1px;
+  }
+  #newsletter .form button {
+    margin-left: 0;
+    padding: 0 10px;
+    border: none;
+    width:100px;
+    height: 50px;
+    background-color: #088178;
+    color: white;
+    font-size: 17px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+  }
+  

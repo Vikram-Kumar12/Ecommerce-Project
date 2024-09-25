@@ -1,0 +1,42 @@
+
+/* footer section styles */
+#footer{
+    background-color: #ececec;
+}
+#footer .Contact{
+    display: flex;
+   align-items:flex-start;
+   justify-content: space-between;
+   padding: 20px;
+}
+#footer .Contact img{
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+#footer .about a{
+    display: block;
+    padding:5px 0;
+    text-decoration: none;
+}
+#footer .myaccount a{
+    display: block;
+    padding:5px 0;
+    text-decoration: none;
+}
+#footer .download img{
+    display: flex;
+    width: 100px;
+    height: 50px;
+}
+#footer p, #footer a{
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+}
+#footer a:hover{
+    color:#088178;
+}
+#footer .Contact2{
+    padding: 0px 0px 20px 20px;
+}
+  
